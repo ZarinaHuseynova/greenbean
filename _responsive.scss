@@ -1,0 +1,138 @@
+@media screen and (min-width: 1200px) {
+  .modal {
+    .modal-dialog {
+      max-width: 800px;
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .first_section {
+    header {
+      .row {
+        justify-content: space-between;
+        .header_nav {
+          .header-left {
+            display: none;
+          }
+          .header-logo{
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+  .information-section {
+    .information {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      .info-bar{
+        padding-left: 50px;
+      }
+    }
+  }
+  .package-section{
+    .packages{
+      .header-text{
+        h2{
+          font-size: 22px;
+        }
+      }
+      .btn_div{
+        ul.nav{
+          li{
+            a{
+              padding: 10px 30px;
+            }
+          }
+        }
+      }
+    }
+    .tab-content {
+      .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .bean_menu {
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+  .about-section {
+    .about_info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img{
+        width: 400px;
+        height: 280px;
+      }
+      .about_text{
+        padding-top: 40px;
+        h2{
+          font-size: 22px;
+        }
+        p{
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .service-section {
+    .service_panel {
+      display: flex;
+      flex-direction: column;
+      .about_services {
+        display: flex;
+        flex-direction: row;
+        padding-top: 25px;
+        .service_text {
+          padding: 10px 0 0 40px;
+        }
+      }
+    }
+  }
+  .contact-section{
+    .contact_menu{
+      .contact_left{
+        display: flex;
+        flex-direction: row;
+        .icons_text{
+          padding-left: 10px;
+        }
+      }
+      .input_menu{
+        padding-left: 28px;
+        form{
+          .input_row{
+            grid-template-columns: repeat(1,1fr);
+            gap: 20px;
+          }
+        }
+      }
+    }
+  }
+  .slider-section{
+    height: 100px;
+    width: auto;
+    .slie_track{
+      .slide{
+        height: 50px;
+        width: 140px;
+        padding-left: 40px;
+      }
+    }
+  }
+  .modal {
+    .modal-content {
+      .modal-body {
+        .packet_buy {
+          padding: 50px 0 5px 30px;
+        }
+      }
+    }
+  }
+}
